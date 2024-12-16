@@ -1,0 +1,58 @@
+/* Скидання стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Шапка */
+.header {
+    background-color: #90e0ef; /* Голубой */
+    padding: 20px;
+    position: relative;
+}
+
+.nav {
+    background-color: #e63946; /* Красный */
+    color: white;
+    width: 150px;
+    margin: 0 auto 10px;
+    padding: 10px 0;
+}
+
+/* Контентная область */
+.content {
+    width: 100%;
+    overflow: hidden; /* Для очистки float */
+}
+
+.main {
+    background-color: #bde0fe; /* Светло-зеленый */
+    width: 75%;
+    float: left; /* Позиционируем слева */
+    padding: 20px;
+    height: 300px;
+}
+
+.aside {
+    background-color: #588157; /* Темно-зеленый */
+    color: white;
+    width: 25%;
+    float: right; /* Позиционируем справа */
+    padding: 20px;
+    height: 300px;
+}
+
+/* Підвал */
+.footer {
+    background-color: #d291bc; /* Фиолетовый */
+    color: black;
+    clear: both; /* Очищаем float */
+    padding: 20px;
+}
